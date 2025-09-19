@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;   /* makes it circular */
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    background-color: #002642;
+    font-size: 18px;
+}
+.list-items {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    color: aliceblue;
+    margin-right: 170px;
+    cursor: pointer;
+    margin-top: 20px;
+    align-self: flex-start;
+}
+/*between navbar and 2nd section*/
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    background-color:#799496;
+}
+/*2nd section*/
+.info-section {
+    padding: 50px 20px;
+    text-align: center; 
+    background-color: #8C031C;
+}
+
+.info-section h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: white;   
+    margin-bottom: 50px; 
+}
+/* The container that holds the four cards */
+.cards-container {
+    display: flex;            
+    justify-content: center;    
+    gap: 50px;                  
+    flex-wrap: wrap;       
+}
+.card {
+    width: 200px;
+}
+
+.card-icon {
+    width: 180px;
+    height: 180px;
+    border: 4px solid #3882F6; 
+    border-radius: 15px;
+}
+
+.card-text {
+    font-size: 16px;
+    color: white; /* A readable, medium-grey color */
+}
+.card-icon img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 12px;
+}
+/*3rd section*/
+.quote-section {
+    text-align: center; 
+    background-color:#DF9A57;
+}
+.quote-section img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+/*4th section*/
+.footer{
+    padding: 50px 20px;
+    text-align: center; 
+    background-color:#FC7A57;
+}

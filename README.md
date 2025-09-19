@@ -1,1 +1,1 @@
-# landing-page
+Practice project for revising html/css learnt so far 
